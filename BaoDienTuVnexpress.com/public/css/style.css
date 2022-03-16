@@ -1,0 +1,507 @@
+body{
+	padding:0;
+	background-color: #fff;
+	background-image: url('../../public/images/trann.png');
+	min-height :800px;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+
+
+/*header.......................đầu trang*/
+.header{
+	width: 100%;
+	position: relative;
+}
+.header_top{
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	min-height: 70px;
+}
+.header_logo{
+	width: 40%;
+	position: relative;
+
+}
+.header_logo a{
+     
+}
+
+.header_logo a img{
+	max-width: 100%;
+	margin-top: 17px;
+}
+.header_social{
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+}
+.header_social a{
+	float: right;
+	background-color: #F8F8FF;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.header_bottom{
+	width: 100%;
+	position: relative;
+	background-color: #F5F5F5;
+	border-bottom: solid 4px #C71585;
+	min-height: 50px;
+	text-align: center;
+
+}
+
+.header_menu{
+	width: 100%;
+	position: relative;
+	margin-top: 15px;
+	
+}
+.header_bottom ul{
+	padding-left: 0;
+}
+.header_bottom ul li{
+	list-style: none;
+	display: inline-block;
+}
+.header_bottom ul li a{
+	color: #1C1C1C;
+	padding: 12px 25px 12px 25px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.header_bottom ul li a.active, .header_bottom ul li a:hover{
+	color: #C71585;
+	border-bottom: solid 5px #fff;
+	text-decoration: none;
+}
+.header_search{
+	width: 100%;
+	position: relative;
+	margin-top: 8px;
+}
+.header_search input[type='text']{
+	font-style: italic;
+	padding: 3px 10px 4px 10px;
+	width: 60%;
+}
+.header_search button{
+	position: absolute;
+	top: 5px;
+	right: 85px;
+	background:no-repeat;
+	border: none;
+	color: #8B8B7A;
+	font-size: 16px;
+
+}
+/*header.......................đầu trang*/
+
+
+
+
+/*footer.......................Chân trang*/
+.footer{
+	width: 100%;
+	position: relative;
+}
+
+
+
+
+
+.footer_top {
+    width: 100%;
+    position: relative;
+    border: solid 1px#ffffff;
+    max-width: 1140px;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    margin-top: 15px;
+}
+
+.footer_top_left {
+    width: 49%;
+    position: relative;
+   	display: inline-block;
+  	vertical-align: top;
+    margin-top: 12px;
+}
+
+
+
+.footer_top_right {
+   width: 49%;
+    position: relative;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.footer_top_right input[type='text'] {
+   width: 100%;
+    position: relative;
+   background-color: #F8F8FF;
+   border:none;
+   padding: 20px;
+   height: 40px;
+   color: #000000;
+}
+.footer_top_right button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #000000 ;
+    padding: 8px 23px 8px 29px;
+}
+
+.footer_top_bottom{
+	width: 100%;
+	position: relative;
+	border-bottom: solid 1px #696969;
+	background-color: rgb(28 ,37,46,0);
+	color: #000000;
+	font-size: 12px;
+}
+.footer_bottom{
+	width: 100%;
+	position: relative;
+	border-bottom: solid 10px #C71585;
+	background-color: rgb(28 ,37,46,0);
+	color: #000000;
+	font-size: 12px;
+	margin-top: 60px;
+}
+.footer_logo{
+	padding: 30px 1px 15px 30px;
+}
+.footer_logo a img{
+	max-width: 50%;
+	margin-top: 17px;
+}
+.footer_copyright{
+	padding: 30px 1px 15px 30px;
+	text-align:right;
+	margin-top: 32px ;
+}
+
+
+/*footer.......................Chân trang*/
+
+/*content.......................Chân trang*/
+.content{
+	
+	min-height: 500px;
+}
+
+
+/*content.......................Chân trang*/
+
+.slider_wrap .canrousel-control{
+	position: relative;
+	top: 50%;
+	left: 30px;
+	right: 30px;
+	width: 40px;
+	text-align: center;
+	height: 40px;
+	display: block;
+	background-image: initial;
+	line-height: 40px;
+	font-size: 30px;
+	opacity: 1;
+	border-radius: 50%;
+}
+.slider_wrap .canrousel-control.left: {
+
+}
+
+.slider_wrap .canrousel-control.right: {
+	left: initial;
+}
+
+.home_page{
+	width: 100%;
+	position: relative;
+}
+
+.home_top{
+	background-color: #F8F8FF;
+	position: relative;
+	padding: 60px 25px 60px 25px;
+	margin-top: 1px;
+}
+
+.home_top_left{
+	position: relative;
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+}
+.home_top_left ul{
+	padding-left: 0;
+	text-align:center;
+}
+
+.home_top_left ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	width: 32.3333%;
+	padding: 13px;
+}
+
+.home_top_left ul li a{
+	color: #24313d;
+}
+
+.home_top_left ul li a b{
+	color: #983071;
+}
+
+.home_top_left ul li a span{
+	color: #0d69be;
+}
+
+.home_top_left ul li a p{
+	font-size: 12px
+}
+
+.home_top_left ul li a img{
+	width: 95%;
+
+}
+
+.home_top_right{
+	position: relative;
+	width: 19.5%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.home_top_right img{
+	width: 100%;
+}
+
+.home_top_right b{
+	display: block;
+	font-weight: 700; 
+	color:#C71585;
+	margin-top: 6px;
+	margin-bottom: 6px;
+
+}
+
+.home_top_right p{
+	font-size: 15px;
+	margin-bottom: 30px;
+	text-align: justify;
+
+}
+
+.home_top_right a{
+	color: #3572ea;
+
+}
+
+.heading{
+	border-left: solid 5px #C71585;
+	color: #C71585;
+	font-size: 18px;
+	font-weight: 700;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	margin-bottom: 25px;
+}
+.home_social{
+	text-align: left;
+
+}
+
+.home_social a{
+	float: right;
+    background-color: #F8F8FF;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+
+
+.home_center{
+	background-color: #f8f8ff;
+	position: relative;
+	padding: 20px 25px 60px 25px;
+	margin-top: 35px;
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+.home_center ul{
+	padding-left: 0;
+    text-align: center;
+}
+.home_center ul li a img{
+	width: 96%;
+} 
+.home_center ul li a{
+	color: #24313d;
+}
+
+.home_center ul li a b{
+	color: #983225;
+}
+
+.home_center ul li a span{
+	color: #0d69be;
+}
+
+.home_center ul li a p{
+	font-size: 12px
+}
+.home_bottom{
+	background-color: #f8f8ff;
+	padding: 30px 25px 50px 25px;
+	margin-top: 40px;
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+.home_bottom ul{
+	padding-left: 0;
+    text-align: center;
+}
+.home_bottom ul li a img{
+	width: 96%;
+} 
+.home_bottom ul li a{
+	color: #24313d;
+}
+
+.home_bottom ul li a b{
+	color: #983225;
+}
+
+.home_bottom ul li a span{
+	color: #0d69be;
+}
+
+.home_bottom ul li a p{
+	font-size: 12px
+}
+
+
+/*contact page*/
+.contact_wrap{
+	width: 100%;
+	position: relative;
+}
+
+.contact_page{
+	background-color: #F8F8FF;
+	position: relative;
+	padding: 60px 25px 60px 25px;
+	margin-top: 1px;
+	width: 100%;
+}
+.contact_map{
+	width: 45%;
+	float: left;
+	position: relative;
+}
+.contact_form{
+	width: 45%;
+	float: right;
+	position: relative;
+	margin-top: 30px;
+}
+
+.contact_form input[type='text']{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+	border: solid 1px #ccc;
+	padding: 10px 15px;
+}
+.contact_form input[type='email']{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+	border: solid 1px #ccc;
+	padding: 10px 15px;
+}
+.contact_form textarea{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+	border: solid  1px #ccc;
+	padding: 10px 15px;
+	min-height: 185px;
+}
+
+.contact_form button{
+	background-color: #24313d;
+	padding: 10px 45px;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 5px;
+}
+
+.mews_cat_wrap{
+	width: 100%;
+	position: relative;
+}
+.mews_cat_wrap li{
+	display: inline-block;
+	width: 24%;
+	vertical-align: top;
+	list-style: none;
+}
+.mews_cat_wrap li a{
+	color: #24323d;
+}
+.mews_cat_wrap li a b{
+	color: #f54c0b;
+	display: block;
+	margin: 9px 8px;
+}
+.mews_cat_wrap li a img{
+	width: 95%;
+}
+.mews_cat_wrap li a p{
+	width: 90%;
+	position: relative;
+	font-size: 13px;
+	text-align: justify;
+	
+}
+
+.page_pagination{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.news_detail_statistic{
+	width: 100%;
+	position: relative;
+	font-size: 12px;
+	margin-bottom: 30px;
+	color: #888;
+}
